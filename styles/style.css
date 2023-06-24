@@ -193,56 +193,59 @@
 }
 
 .figure {
+  margin: 0;
+}
+
+.person {
   position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin: 0;
 }
 
-.figcaption_feynman {
+.person_name_feynman {
   top: -30px;
   left: 319px;
 }
 
-.figcaption_burbidge {
+.person_name_burbidge {
   top: 96px;
   right: 125px;
 }
 
-.figcaption_cannon {
+.person_name_cannon {
   bottom: 18px;
   right: 216px;
 }
 
-.figcaption_mitchell {
+.person_name_mitchell {
   bottom: 82px;
   left: 142px;
 }
 
-.figcaption_tarter {
+.person_name_tarter {
   top: 79px;
   left: 159px;
 }
 
-.figure__image {
+.person__image {
   max-width: 100%;
 }
 
-.figure__image_size_l {
+.person__image_size_l {
   width: 140px;
 }
 
-.figure__image_size_m {
+.person__image_size_m {
   width: 100px;
 }
 
-.figure__image_size_s {
+.person__image_size_s {
   width: 80px;
 }
 
-.figcaption {
+.person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
