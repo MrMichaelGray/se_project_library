@@ -35,12 +35,12 @@
   margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -192,56 +192,57 @@
   max-width: 100%;
 }
 
-.person {
+.figure {
   position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
-.person_name_feynman {
+.figcaption_feynman {
   top: -30px;
   left: 319px;
 }
 
-.person_name_burbidge {
+.figcaption_burbidge {
   top: 96px;
   right: 125px;
 }
 
-.person_name_cannon {
+.figcaption_cannon {
   bottom: 18px;
   right: 216px;
 }
 
-.person_name_mitchell {
+.figcaption_mitchell {
   bottom: 82px;
   left: 142px;
 }
 
-.person_name_tarter {
+.figcaption_tarter {
   top: 79px;
   left: 159px;
 }
 
-.person__image {
+.figure__image {
   max-width: 100%;
 }
 
-.person__image_size_l {
+.figure__image_size_l {
   width: 140px;
 }
 
-.person__image_size_m {
+.figure__image_size_m {
   width: 100px;
 }
 
-.person__image_size_s {
+.figure__image_size_s {
   width: 80px;
 }
 
-.person__caption {
+.figcaption {
   text-align: center;
   font-size: 14px;
   margin: 0;
@@ -250,6 +251,7 @@
 .staff {
   padding: 100px 0 140px;
   background: no-repeat center/100% url("../images/staff_picks_background.jpg");
+  background-size: cover;
 }
 
 .staff__title {
@@ -278,6 +280,7 @@
   gap: 40px;
   margin: 0 auto;
   list-style-type: none;
+  padding: 0;
 }
 
 .card {
@@ -336,15 +339,13 @@
   list-style-type: none;
   margin: 100px 0 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 40px;
-
-  /* Add styles */
+  padding-left: 0;
 }
 
 .step {
   flex-basis: 220px;
-  padding: 40px;
 }
 
 .step__title {
@@ -395,6 +396,7 @@
 
 .about__paragraph {
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .about__paragraph:nth-of-type(3n) {
@@ -419,6 +421,7 @@
   padding: 60px 102px 60px 80px;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 0;
 }
 
 .footer__columns {
@@ -460,6 +463,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: inherit;
 }
 
 .footer__column-link {
@@ -482,5 +486,6 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0;
+  position: absolute;
 }
