@@ -202,6 +202,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -425,6 +426,8 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__columns {
@@ -490,5 +493,4 @@
 
 .footer__copyright {
   margin: 108px 0 0;
-  position: absolute;
 }
